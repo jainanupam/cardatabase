@@ -27,7 +27,7 @@ public class CardatabaseApplication {
     SpringApplication.run(CardatabaseApplication.class, args);
     logger.info("Hello Spring Boot");
   }
-
+  
   @Bean
   CommandLineRunner runner() {
     return args -> {
